@@ -1,0 +1,22 @@
+.card-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  .cart_tam {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .cartim {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      img {
+        max-width: 260px;
+      }
+    }
+  }
+}
